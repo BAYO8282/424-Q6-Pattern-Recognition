@@ -1,0 +1,92 @@
+1. What is a Segmentation algorithm?
+Ans: Segmentation algorithms partition an image into sets of pixels or regions. The purpose of partitioning is to understand better what the image represents.
+
+2. What are the uses of Segmentation algorithms?
+Ans: Segmentation algorithms can be applied to document images but also to a set of document images (in order to segment a book into its chapters by instance), to natural images , to medical images and even to 3D meshes.
+
+3. What are the line segmentation algorithms?
+Ans: Line segmentation algorithms as long as they explicitly detect the beginning, the end, the top and the bottom of each line. This excludes the algorithms that only draw a border between lines from one side of the page to the other.
+
+4. How many Identifications there are?
+Ans: There are two kinds of identification: the physical layout and the logical layout.
+
+5. What are the uses of physical layout?
+Ans: The physical layout relates to the nature of the content such as text, typewritten text, graphics, diagram, picture, decoration, etc.
+
+6. What are the uses of logical layout?
+Ans: The logical layout relates to the function of the content such as header, footnote, main body, etc.
+
+7. What are the main types of color depth?
+Ans:  Black and white (BW), gray level (GL) and color (C).
+
+8. What are the layout analysis strategies?
+Ans: Bottom-up, Top-down and Hybrid.
+
+9. What is the Bottom-up strategy?
+Ans: Bottom-up starts layout analysis at small document-elements such as pixels or connected-components. Then, it merges or groups homogeneous elements to create larger zones.
+
+10. What is the Top-down strategy?
+Ans: Top-down strategy splits that large document region into smaller zones such as text-columns based on some homogeneity rules. The top-down analysis stops when there is no more splitting of zones, or some stopping conditions are reached.
+
+11. What is a Hybrid strategy?
+Ans: The combination of bottom-up and top-down strategies is called a hybrid strategy.
+
+12. How many groups of document Segmentation algorithms?
+Ans: There are three groups; Group one: Algorithm constrained, Group two: Parameter constrained, Group three: Potentially unconstrained.
+
+13. What are the subcategories of Group One?
+Ans: Document structure assumption, Filtering, Straight line identification.
+
+14. What are the subcategories of Group Two?
+Ans: Clustering,Function analysis, Classification.
+
+15. What are the subcategories of Group Three?
+Ans: Hybrid techniques, Algorithm combination, Neural networks.
+
+16. What is Mathematical morphology?
+Ans: Mathematical morphology is an important branch of image signal processing, and it provides a useful tool for solving many image processing problems. The language of mathematical morphology is set theory.
+
+17. Explain Hough Transform?
+Ans: Hough transform is to perform angular scanning of image pixels and accumulate votes of each scan in Hough space. Then, a candidate line is detected by finding the highest response in the Hough space.
+
+18. What is clustering?
+Ans: Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them into clusters.
+
+19. What does the Document structure assumption do?
+Ans: The algorithms that make clear assumptions about the document layout they either define this layout with a grammar, a set of rules or they assume that it
+is a Manhattan layout and uses projection profiles.
+
+20. What does the Filtering do?
+Ans: The algorithms that use filtering techniques to make the document regions appear. They usually rely on RLSA, mathematical morphology or other filters. The
+filters characteristics reflect the assumptions made on the layout geometry.
+
+21. What does the Document structure assumption do?
+Ans: The algorithms that try to identify straight lines. This can be done with a Hough transform, by trying to identify straight lines or square borders, or by
+identifying white spaces alignment, in which case the “lines” may be invisible lines.
+
+22. What does Clustering do?
+Ans: The clustering algorithms are bottom up algorithms and try to cluster elements based on geometric or texture or a more general set of features.
+
+23. What do algorithms based on function analysis do?
+Ans: The algorithms based on function analysis mostly rely on function optimization e.g. trying to bring a function as close as possible to an objective value.
+
+24. What do classification algorithms do?
+Ans: The classification algorithms are trained to recognize the different types of elements based on a given set of features.
+
+25. What do hybrid algorithms do?
+Ans: The hybrid algorithms combine several other algorithms in symbiosis: While they could potentially accumulate the strength of several other algorithms, some of them tend to be very complex without significant performance or versatility improvement.
+
+26. What does the combination algorithm do?
+Ans: The combination algorithm combines the results of several algorithms to effectively improve them.
+
+27. What do the neural network algorithms do?
+Ans: The neural network algorithms make use of artificial intelligence to automatically learn significant features and perform the required task. They need careful design and are subject to over training. They also tend to be a “black box” whose functioning is not easily explained.
+
+28. What is DMOS?
+Ans: DMOS is a layout grammar language. This language can describe any layout and the associated parser recognizes this layout in an image. The grammar also allows the association of a label to each region of the layout thus producing a labeled segmentation.
+
+29. What does the projection profile do?
+Ans: Projection profiles used to detect regions with non homogenous text orientation and text lines, segmenting curved text lines, to separate intricate text lines but this costs the generality of the algorithm as it requires typographic heuristics specific to Arabic handwriting.
+
+30. What is the binarization process?
+Ans: Binarization assists the subsequent analysis phases in addressing several analysis tasks such as text-line detection, skew correction, and connected-component estimation. It helps in analyzing complex document challenges such as noise, complex background, uneven illumination, and faint foreground that is often caused by smearing, bleeding through, blurring, aging factors, and so on.
