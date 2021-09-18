@@ -90,3 +90,67 @@ Ans: Projection profiles used to detect regions with non homogenous text orienta
 
 30. What is the binarization process?
 Ans: Binarization assists the subsequent analysis phases in addressing several analysis tasks such as text-line detection, skew correction, and connected-component estimation. It helps in analyzing complex document challenges such as noise, complex background, uneven illumination, and faint foreground that is often caused by smearing, bleeding through, blurring, aging factors, and so on.
+
+31. What is the Multilayer Perceptron algorithm?
+Ans: Multi-layer Perceptron (MLP) is a supervised learning algorithm that learns a function f ( ⋅ ) : R m → R o by training on a dataset, where is the number of dimensions for input and is the number of dimensions for output.
+
+32. How do multi-layer perceptrons work?
+Ans: How does a multilayer perceptron work? The Perceptron consists of an input layer and an output layer which are fully connected. Just as with the perceptron, the inputs are pushed forward through the MLP by taking the dot product of the input with the weights that exist between the input layer and the hidden layer.
+
+33. What are multilayer perceptrons good for?
+Ans: MLPs are useful in research for their ability to solve problems stochastically, which often allows approximate solutions for extremely complex problems like fitness approximation.
+
+34. What is principal component analysis?
+Ans: Principal component analysis (PCA) is a technique for reducing the dimensionality of such datasets, increasing interpretability but at the same time minimizing information loss. It does so by creating new uncorrelated variables that successively maximize variance.
+
+35. What is the primary goal of principal component analysis?
+Ans: Principal component analysis aims at reducing a large set of variables to a small set that still contains most of the information in the large set. The technique of principal component analysis enables us to create and use a reduced set of variables, which are called principal factors.
+
+36. Why do we use principal component analysis?
+Ans: The most important use of PCA is to represent a multivariate data table as a smaller set of variables (summary indices) in order to observe trends, jumps, clusters, and outliers. This overview may uncover the relationships between observations and variables, and among the variables.
+
+37. What is a Markov random field?
+Ans: A Markov Random Field is a graph whose nodes model random variables, and whose edges model desired local influences among pairs of them. Local influences propagate globally, leveraging the connectivity of the graph. Here is an example. Consider an image on a rectangular grid. It's composed of pixels.
+
+38. Where are Markov random fields used?
+Ans: Markov random fields find applications in a variety of fields, ranging from computer graphics to computer vision, machine learning, or computational biology. MRFs are used in image processing to generate textures as they can be used to generate flexible and stochastic image models.
+
+39. What is the multi-layer Perceptron model?
+Ans: A multilayer perceptron (MLP) is a class of feedforward artificial neural networks (ANN). An MLP consists of at least three layers of nodes: an input layer, a hidden layer, and an output layer. Except for the input nodes, each node is a neuron that uses a nonlinear activation function.
+
+40. Where is Multilayer Perceptron used?
+Ans: The multilayer perceptron (MLP) is used for a variety of tasks, such as stock analysis, image identification, spam detection, and election voting predictions.
+
+41. What is support vector machines with examples?
+Ans: Support Vector Machine (SVM) is a supervised machine learning algorithm capable of performing classification, regression, and even outlier detection. The linear SVM classifier works by drawing a straight line between two classes.
+
+42. What does support vector machine do?
+Ans: SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. The idea of SVM is simple: The algorithm creates a line or a hyperplane which separates the data into classes.
+
+43. What is Gaussian mixture model clustering?
+Ans: Gaussian Mixture Models (GMMs) assume that there are a certain number of Gaussian distributions, and each of these distributions represents a cluster. Hence, a Gaussian Mixture Model tends to group the data points belonging to a single distribution together.
+
+44. What is a convolutional neural network?
+Ans: A convolutional neural network (CNN) is a type of artificial neural network used in image recognition and processing that is specifically designed to process pixel data. CNN has their “neurons” arranged more like those of the frontal lobe, the area responsible for processing visual stimuli in humans and other animals.
+
+45. What are convolutional neural networks used for?
+Ans: A Convolutional neural network (CNN) is a neural network that has one or more convolutional layers and is used mainly for image processing, classification, segmentation, and also for other autocorrelated data. A convolution is essentially sliding a filter over the input.
+
+46. What is the CNN algorithm?
+Ans: A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm that can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image, and be able to differentiate one from the other.
+
+47. What is bidirectional long short-term memory?
+Ans: Bidirectional long-short term memory(bi-lstm) is the process of making any neural network o have the sequence information in both directions backward (future to past) or forward(past to future). In bidirectional, our input flows in two directions, making a bi-lstm different from the regular LSTM.
+
+48. What is a white space analysis?
+Ans: White space analysis is the process of using company data and sales records to uncover new opportunities to target. White space opportunity is essentially a gap that businesses can take advantage of to increase sales or increase their market share in a crowded market.
+
+49. What is a clustering algorithm?
+Ans: Cluster analysis, or clustering, is an unsupervised machine learning task. It involves automatically discovering natural grouping in data. Unlike supervised learning (like predictive modeling), clustering algorithms only interpret the input data and find natural groups or clusters in feature space.
+
+50. What are the different types of clustering algorithms?
+Ans: Below is a short discussion of four common approaches, focusing on centroid-based clustering using k-means.
+Centroid-based Clustering.
+Density-based Clustering.
+Distribution-based Clustering.
+Hierarchical Clustering.
